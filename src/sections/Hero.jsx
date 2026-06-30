@@ -90,7 +90,7 @@ export const Hero = () => {
               <Button size="lg" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
+              <AnimatedBorderButton href="/Nipesh_Maharjan_CV.pdf" download="Nipesh_Maharjan_CV.pdf">
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>
@@ -119,7 +119,7 @@ export const Hero = () => {
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                    <span className="text-sm font-medium text-green-900">
+                    <span className="text-sm font-medium text-foreground">
                       Available for work
                     </span>
                   </div>
@@ -127,7 +127,7 @@ export const Hero = () => {
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                   <div className="text-2xl font-bold text-primary">3+</div>
-                  <div className="text-xs text-red-900">
+                  <div className="text-xs text-foreground/70">
                     Years Exp.
                   </div>
                 </div>

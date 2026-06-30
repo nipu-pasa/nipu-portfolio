@@ -11,7 +11,7 @@ export const AnimatedBorderButton = ({ children, href, download }) => {
         focus-visible:ring-primary focus-visible:ring-offset-2 
         disabled:opacity-50 disabled:cursor-not-allowed group 
         px-8 py-4 text-lg font-medium rounded-full overflow-visible 
-        animated-border"
+        animated-border inline-flex"
     >
       {/* Animated SVG Border */}
       <svg
